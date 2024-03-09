@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 import { useSelector } from "react-redux";
 
-function Header() {
+function Header() { 
   const globalData = useSelector((store) => store.userReducer.loginData.return);
 
   console.log("globalData: ", globalData);
